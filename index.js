@@ -8,6 +8,6 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
-  .server.listen('8000', function() {
+  .server.listen('3000', function() {
     console.log("App is running on port 8000");
 });
